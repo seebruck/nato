@@ -12,13 +12,19 @@ nato <- function(x) {
     levels(y) <- c(paste(lett), lett, numb)
     return(as.character(y))
 }
+```
 
-# nato("District9")
+Example:
+```
+nato("District9")
 # [1] "Delta"   "India"   "Sierra"  "Tango"   "Romeo"   "India"   "Charlie" "Tango"   "Nine" 
+```
 
-# nlist <- c("Leonardo", "Raphael", "Donatello", "Michelangelo")
-# sapply(nlist, nato)
-#
+Example:
+```
+nlist <- c("Leonardo", "Raphael", "Donatello", "Michelangelo")
+sapply(nlist, nato)
+
 #$Leonardo
 #[1] "Lima"     "Echo"     "Oscar"    "November" "Alfa"     "Romeo"    "Delta"   
 # [8] "Oscar"   
