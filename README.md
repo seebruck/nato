@@ -15,4 +15,22 @@ nato <- function(x) {
 
 # nato("District9")
 # [1] "Delta"   "India"   "Sierra"  "Tango"   "Romeo"   "India"   "Charlie" "Tango"   "Nine" 
+
+# nlist <- c("Leonardo", "Raphael", "Donatello", "Michelangelo")
+# sapply(nlist, nato)
+#
+#$Leonardo
+#[1] "Lima"     "Echo"     "Oscar"    "November" "Alfa"     "Romeo"    "Delta"   
+# [8] "Oscar"   
+#
+#$Raphael
+# [1] "Romeo" "Alfa"  "Papa"  "Hotel" "Alfa"  "Echo"  "Lima" 
+#
+#$Donatello
+# [1] "Delta"    "Oscar"    "November" "Alfa"     "Tango"    "Echo"     "Lima"    
+# [8] "Lima"     "Oscar"   
+#
+#$Michelangelo
+# [1] "Mike"     "India"    "Charlie"  "Hotel"    "Echo"     "Lima"    
+# [7] "Alfa"     "November" "Golf"     "Echo"     "Lima"     "Oscar"  
 ```
