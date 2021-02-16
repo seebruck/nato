@@ -1,6 +1,6 @@
 Function to convert strings to their NATO phonetic alphabet equivalents.
 
-This is a simplified version of the `StrSpell()` function in the `DescTools` package: https://cran.r-project.org/web/packages/DescTools/index.html
+This is a simplified version of the `StrSpell()` function in the [DescTools](https://cran.r-project.org/web/packages/DescTools/index.html) package.
 
 ```
 nato <- function(x) {
